@@ -1,0 +1,91 @@
+.error-container {
+  padding: 32px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: rgba(18, 24, 41, 0.85);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.error-container.api_offline,
+.error-container.general {
+  border-color: rgba(239, 68, 68, 0.3);
+  background: radial-gradient(circle at left, rgba(239, 68, 68, 0.08) 0%, rgba(18, 24, 41, 0.95) 70%);
+}
+
+.error-container.db_offline {
+  border-color: rgba(245, 158, 11, 0.3);
+  background: radial-gradient(circle at left, rgba(245, 158, 11, 0.08) 0%, rgba(18, 24, 41, 0.95) 70%);
+}
+
+.error-container.not_found,
+.error-container.empty {
+  border-color: rgba(59, 130, 246, 0.3);
+  background: radial-gradient(circle at left, rgba(59, 130, 246, 0.06) 0%, rgba(18, 24, 41, 0.95) 70%);
+}
+
+.error-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.error-icon.red {
+  color: var(--risk-high);
+}
+
+.error-icon.yellow {
+  color: var(--risk-med);
+}
+
+.error-icon.blue {
+  color: var(--primary-500);
+}
+
+.error-icon.muted {
+  color: var(--text-muted);
+}
+
+.error-content {
+  flex: 1;
+}
+
+.error-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.error-message {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 16px;
+  max-width: 680px;
+}
+
+.error-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .error-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+  .error-actions {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,53 @@
+============================================================
+CHARGESHIELD INVESTIGATION CASE: 3279032
+============================================================
+
+TRANSACTION ASSESSMENT:
+------------------------------------------------------------
+Transaction ID      : 3279032
+Fraud Probability   : 99.86%
+Risk Score          : 99.86/100
+Risk Level          : HIGH
+Recommended Action  : MANUAL_INVESTIGATION
+
+TRANSACTION EVIDENCE:
+------------------------------------------------------------
+TransactionAmt      : 450.0
+ProductCD           : H
+card1               : 4141
+card4               : mastercard
+card6               : credit
+P_emaildomain       : yahoo.com
+R_emaildomain       : gmail.com
+DeviceType          : desktop
+DeviceInfo          : Windows
+addr1               : 251
+addr2               : 87
+dist1               : Unknown
+dist2               : 351.0
+Transaction_hour    : 6
+Transaction_day     : 83
+missing_count       : 127
+missing_ratio       : 0.29
+
+MODEL-IMPORTANT RISK FACTORS:
+------------------------------------------------------------
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+INVESTIGATOR SUMMARY:
+------------------------------------------------------------
+This transaction has a HIGH ChargeShield risk score of 99.86/100 with an estimated fraud probability of 99.86%.
+
+The recommended action is MANUAL_INVESTIGATION.
+
+The model's globally important risk factors include:
+TransactionAmt, card6, C1, C13 and R_emaildomain.
+
+These factors indicate areas that should be reviewed by an investigator. They do not by themselves prove fraudulent activity.
+
+============================================================

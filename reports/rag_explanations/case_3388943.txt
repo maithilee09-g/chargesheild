@@ -1,0 +1,61 @@
+============================================================
+CHARGESHIELD AI INVESTIGATOR EXPLANATION
+========================================
+
+CASE: #3388943
+
+RISK SCORE: 99.94/100
+FRAUD PROBABILITY: 99.94%
+RISK LEVEL: HIGH
+RECOMMENDED ACTION: MANUAL_INVESTIGATION
+
+## KEY RISK FACTORS
+
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+## HISTORICAL EVIDENCE
+
+5 highly similar historical cases were identified.
+
+Case #3405227
+Similarity: 95%
+Risk: 99.85%
+Action: MANUAL_INVESTIGATION
+
+Case #3203262
+Similarity: 94%
+Risk: 99.69%
+Action: MANUAL_INVESTIGATION
+
+Case #3405217
+Similarity: 94%
+Risk: 99.79%
+Action: MANUAL_INVESTIGATION
+
+Case #3279032
+Similarity: 94%
+Risk: 99.86%
+Action: MANUAL_INVESTIGATION
+
+Case #3226689
+Similarity: 93%
+Risk: 52.03%
+Action: REVIEW
+
+## INVESTIGATOR SUMMARY
+
+The current transaction has a very high model-estimated fraud risk (99.94/100, probability: 99.94%). Multiple historically similar transactions with matching behavioral indicators also resulted in manual investigation.
+
+The retrieved historical cases provide supporting precedent, but they do NOT prove that this transaction is fraudulent.
+
+## INVESTIGATOR RECOMMENDATION
+
+MANUAL_INVESTIGATION
+
+Review the transaction amount, card characteristics, email domain, and behavioral indicators before making a final decision.
+
+============================================================

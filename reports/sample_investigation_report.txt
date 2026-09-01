@@ -1,0 +1,163 @@
+============================================================
+CHARGESHIELD INVESTIGATION REPORT
+============================================================
+
+Transaction ID: 3357788
+
+Fraud Probability: 90.06%
+Risk Score: 90.06/100
+Risk Level: HIGH
+Recommended Action: MANUAL_INVESTIGATION
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3365962
+
+Fraud Probability: 91.61%
+Risk Score: 91.61/100
+Risk Level: HIGH
+Recommended Action: MANUAL_INVESTIGATION
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3101732
+
+Fraud Probability: 72.88%
+Risk Score: 72.88/100
+Risk Level: HIGH
+Recommended Action: MANUAL_INVESTIGATION
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3279032
+
+Fraud Probability: 99.86%
+Risk Score: 99.86/100
+Risk Level: HIGH
+Recommended Action: MANUAL_INVESTIGATION
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3226689
+
+Fraud Probability: 52.03%
+Risk Score: 52.03/100
+Risk Level: MEDIUM
+Recommended Action: REVIEW
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3461182
+
+Fraud Probability: 49.50%
+Risk Score: 49.50/100
+Risk Level: MEDIUM
+Recommended Action: REVIEW
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3261179
+
+Fraud Probability: 52.55%
+Risk Score: 52.55/100
+Risk Level: MEDIUM
+Recommended Action: REVIEW
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3457624
+
+Fraud Probability: 30.58%
+Risk Score: 30.58/100
+Risk Level: LOW
+Recommended Action: ALLOW
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3552820
+
+Fraud Probability: 15.21%
+Risk Score: 15.21/100
+Risk Level: LOW
+Recommended Action: ALLOW
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------
+
+Transaction ID: 3271083
+
+Fraud Probability: 7.83%
+Risk Score: 7.83/100
+Risk Level: LOW
+Recommended Action: ALLOW
+
+Top Risk Factors:
+1. TransactionAmt
+2. card6
+3. C1
+4. C13
+5. R_emaildomain
+
+------------------------------------------------------------

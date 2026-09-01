@@ -1,0 +1,119 @@
+{
+  "case_id": "#3388943",
+  "transaction_id": 3388943,
+  "risk_score": 99.94,
+  "fraud_probability": 0.9994,
+  "risk_level": "HIGH",
+  "recommended_action": "MANUAL_INVESTIGATION",
+  "key_risk_factors": [
+    "TransactionAmt",
+    "card6",
+    "C1",
+    "C13",
+    "R_emaildomain"
+  ],
+  "evidence_summary": {
+    "TransactionAmt": 42.294,
+    "ProductCD": "C",
+    "card1": 13335,
+    "card4": "mastercard",
+    "card6": "credit",
+    "P_emaildomain": "hotmail.com",
+    "R_emaildomain": "hotmail.com",
+    "DeviceType": "mobile",
+    "DeviceInfo": "SM-A300H Build/LRX22G",
+    "addr1": "Unknown",
+    "addr2": "Unknown",
+    "dist1": "Unknown",
+    "dist2": "Unknown",
+    "Transaction_hour": 7,
+    "Transaction_day": 117,
+    "missing_count": 95,
+    "missing_ratio": 0.2169
+  },
+  "historical_case_comparison": [
+    {
+      "case_id": 3405227,
+      "similarity_score": 0.9452,
+      "similarity_pct": "95%",
+      "risk_score": 99.85,
+      "fraud_probability": 0.9985,
+      "risk_level": "HIGH",
+      "recommended_action": "MANUAL_INVESTIGATION",
+      "model_important_features": [
+        "TransactionAmt",
+        "card6",
+        "C1",
+        "C13",
+        "R_emaildomain"
+      ]
+    },
+    {
+      "case_id": 3203262,
+      "similarity_score": 0.944,
+      "similarity_pct": "94%",
+      "risk_score": 99.69,
+      "fraud_probability": 0.9969,
+      "risk_level": "HIGH",
+      "recommended_action": "MANUAL_INVESTIGATION",
+      "model_important_features": [
+        "TransactionAmt",
+        "card6",
+        "C1",
+        "C13",
+        "R_emaildomain"
+      ]
+    },
+    {
+      "case_id": 3405217,
+      "similarity_score": 0.9432,
+      "similarity_pct": "94%",
+      "risk_score": 99.79,
+      "fraud_probability": 0.9979,
+      "risk_level": "HIGH",
+      "recommended_action": "MANUAL_INVESTIGATION",
+      "model_important_features": [
+        "TransactionAmt",
+        "card6",
+        "C1",
+        "C13",
+        "R_emaildomain"
+      ]
+    },
+    {
+      "case_id": 3279032,
+      "similarity_score": 0.9392,
+      "similarity_pct": "94%",
+      "risk_score": 99.86,
+      "fraud_probability": 0.9986,
+      "risk_level": "HIGH",
+      "recommended_action": "MANUAL_INVESTIGATION",
+      "model_important_features": [
+        "TransactionAmt",
+        "card6",
+        "C1",
+        "C13",
+        "R_emaildomain"
+      ]
+    },
+    {
+      "case_id": 3226689,
+      "similarity_score": 0.9294,
+      "similarity_pct": "93%",
+      "risk_score": 52.03,
+      "fraud_probability": 0.5203,
+      "risk_level": "MEDIUM",
+      "recommended_action": "REVIEW",
+      "model_important_features": [
+        "TransactionAmt",
+        "card6",
+        "C1",
+        "C13",
+        "R_emaildomain"
+      ]
+    }
+  ],
+  "investigator_summary": "The current transaction has a very high model-estimated fraud risk (99.94/100, probability: 99.94%). Multiple historically similar transactions with matching behavioral indicators also resulted in manual investigation.\n\nThe retrieved historical cases provide supporting precedent, but they do NOT prove that this transaction is fraudulent.",
+  "investigator_recommendation": "MANUAL_INVESTIGATION\n\nReview the transaction amount, card characteristics, email domain, and behavioral indicators before making a final decision.",
+  "confidence_notes": "1. MODEL PREDICTION: Calculated from tree ensemble features and global SHAP importance.\n2. RETRIEVED HISTORICAL EVIDENCE: Dense vector similarity search (all-MiniLM-L6-v2) over historical dossiers.\n3. GENERATED EXPLANATION: Objective synthesis intended to assist human review. Historical similarity indicates pattern correlation, not definitive proof of fraud."
+}
