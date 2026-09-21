@@ -119,6 +119,22 @@ def get_retriever() -> ChargeShieldRAGRetriever:
     return _rag_retriever
 
 
+@app.on_event("startup")
+def warmup_services():
+    """
+    Warm up database client and RAG retriever in a background thread upon container startup.
+    Eliminates first-request latencies and timeout issues.
+    """
+    import threading
+    def _warm():
+        try:
+            check_database_health()
+            get_retriever()
+        except Exception as e:
+            logger.info(f"Startup warm-up notice: {e}")
+    threading.Thread(target=_warm, daemon=True).start()
+
+
 # ============================================================
 # Pydantic Schemas
 # ============================================================
