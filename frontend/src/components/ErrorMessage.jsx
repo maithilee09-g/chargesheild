@@ -1,6 +1,7 @@
 import React from 'react';
 import { AlertTriangle, ServerOff, Database, SearchX, RefreshCw, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 import './ErrorMessage.css';
 
 export default function ErrorMessage({
@@ -34,7 +35,7 @@ export default function ErrorMessage({
   }[type] || 'Error Occurred';
 
   const defaultMessage = {
-    api_offline: 'Cannot connect to the ChargeShield FastAPI service at http://127.0.0.1:8000. Please ensure the backend server is running.',
+    api_offline: `Cannot connect to the ChargeShield FastAPI service (${API_BASE_URL}). Please ensure the backend server is running and accessible.`,
     db_offline: 'MongoDB connection is currently unreachable. Historical cases and stored explanations may be temporarily limited.',
     not_found: 'The requested investigation case could not be located in MongoDB or the filesystem reports repository.',
     empty: 'No investigation cases matched your search query or filter criteria.',
